@@ -44,8 +44,8 @@ app.use('/about', About);
 const Contact = require('./routes/Contact');
 app.use('/contact', Contact);
 
-const Faq = require('./routes/Faq');
-app.use('/faq', Faq);
+const Product = require('./routes/Product');
+app.use('/products', Product);
 
 const Terms = require('./routes/Terms');
 app.use('/terms', Terms);

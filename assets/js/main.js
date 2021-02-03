@@ -28,7 +28,7 @@ jQuery(function($) {
         items: 1,
         smartSpeed: 100,
         autoplay: false,
-        navText: ["<i class='flaticon-left-arrow'></i>", "<i class='flaticon-right-arrow'></i>"],
+        navText: ["<i class='fas fa-chevron-left'></i>", "<i class='fas fa-chevron-right'></i>"],
     });
     $(".home-slides").on("translate.owl.carousel", function() {
         $(".main-slider-content h1").removeClass("animated fadeInUp").css("opacity", "0");
@@ -53,7 +53,7 @@ jQuery(function($) {
         margin: 0,
         autoplayHoverPause: true,
         autoplay: true,
-        navText: ["<i class='flaticon-left-arrow'></i>", "<i class='flaticon-right-arrow'></i>"],
+        navText: ["<i class='fas fa-chevron-left'></i>", "<i class='fas fa-chevron-right'></i>"],
     });
     $('.top-products-slider').owlCarousel({
         loop: true,
@@ -63,7 +63,7 @@ jQuery(function($) {
         margin: 30,
         autoplayHoverPause: true,
         autoplay: true,
-        navText: ["<i class='flaticon-left-arrow'></i>", "<i class='flaticon-right-arrow'></i>"],
+        navText: ["<i class='fas fa-chevron-left'></i>", "<i class='fas fa-chevron-right'></i>"],
         responsive: {
             0: {
                 items: 1
@@ -90,7 +90,7 @@ jQuery(function($) {
         margin: 30,
         autoplayHoverPause: true,
         autoplay: true,
-        navText: ["<i class='flaticon-left-arrow'></i>", "<i class='flaticon-right-arrow'></i>"],
+        navText: ["<i class='fas fa-chevron-left'></i>", "<i class='fas fa-chevron-right'></i>"],
         responsive: {
             0: {
                 items: 1

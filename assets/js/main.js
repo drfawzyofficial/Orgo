@@ -144,7 +144,7 @@ jQuery(function($) {
         margin: 0,
         autoplayHoverPause: true,
         autoplay: true,
-        navText: ["<i class='flaticon-left-arrow'></i>", "<i class='flaticon-right-arrow'></i>"],
+        navText: ["<i class='fas fa-chevron-left'></i>", "<i class='fas fa-chevron-right'></i>"],
     });
     $('.odometer').appear(function(e) {
         var odo = $(".odometer");

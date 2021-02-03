@@ -57,7 +57,7 @@ app.use('/privacy', Privacy);
 
 /*@ Handle Error 404 not found @*/
 app.use((req, res, next) => {
-    res.render('error');
+    res.render('partials/error');
     next();
 });
 /*@ Handle Error 404 not found @*/

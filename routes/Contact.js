@@ -1,13 +1,10 @@
 const express = require('express');
 const router = express.Router();
 
-// reCaptcha Middleware
-const { handleContact } = require('../Middlewares/reCaptcha');
+router.get('/', (req, res, next) => {
+    if(req.cookies.lang === "ar") {
+        res.render('arabic/contact', { page: 'Contact' });
+    } else res.render('english/contact', { page: 'Contact' });
+})
 
-// Contact Controller
-const { getContact, postContact } = require('../Controllers/Contact');
-
-router.get('/', getContact)
-      .post('/', handleContact, postContact);
-      
 module.exports = router;

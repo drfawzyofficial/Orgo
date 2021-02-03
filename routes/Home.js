@@ -1,23 +1,20 @@
 const express = require('express');
 const router = express.Router();
-const moment = require('moment');
-const New = require('../models/New');
-router.get('/', async (req, res, next) => {
-    if(req.cookies.lang === "en") {
-        const news = await New.find({  });
-        res.render('english/index', { page: 'Tatx', news: news, moment: moment });
+
+router.get('/', async (req, res) => {
+    if(req.cookies.lang === "ar") {
+        res.render('arabic/home', { page: 'Home' }); 
     } else {
-        const news = await New.find({  });
-        res.render('arabic/index', { page: 'Tatx', news: news, moment: moment }); 
+        res.render('english/home', { page: 'Home' });
     }
 });
 
-router.post('/', (req, res, next) => {
+router.post('/change/en', (req, res) => {
     res.cookie('lang', 'en');
     res.redirect('/');
 })
 
-router.post('/ar', (req, res, next) => {
+router.post('/change/ar', (req, res) => {
     res.cookie('lang', 'ar');
     res.redirect('/');
 })

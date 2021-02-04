@@ -315,4 +315,5 @@ jQuery(function($) {
             wow.init();
         }
     });
+    
 }(jQuery));

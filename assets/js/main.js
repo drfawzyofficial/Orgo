@@ -255,6 +255,10 @@ jQuery(function($) {
                 scrollTop: "0"
             }, 500);
         });
+        $('.WhatsApp').on('click', function() {
+            window.open("https://api.whatsapp.com/send?phone=201004575215", "_target");
+        });
+        
     });
     (function($) {
         $('.tab ul.tabs').addClass('active').find('> li:eq(0)').addClass('current');

@@ -1,0 +1,895 @@
+.optional-btn {
+    margin-right: 15px;
+    margin-left: 0
+}
+
+.preloader .preloader {
+    right: 40%;
+    transform: translateX(-40%)
+}
+
+.top-header-information {
+    padding-right: 0;
+    text-align: right
+}
+
+.top-header-information li {
+    padding-right: 20px;
+    padding-left: 0;
+    margin-left: 15px;
+    margin-right: 0
+}
+
+.top-header-information li i {
+    right: 0;
+    left: auto
+}
+
+.top-header-information li:last-child {
+    margin-left: 0
+}
+
+.top-header-social {
+    padding-right: 0;
+    text-align: left
+}
+
+.top-header-social li {
+    margin-left: 10px;
+    margin-right: 0
+}
+
+.top-header-social li:last-child {
+    margin-left: 0
+}
+
+.navbar-brand {
+    margin-right: 0
+}
+
+.main-navbar .navbar .navbar-nav {
+    margin-right: auto;
+    margin-left: 0
+}
+
+.main-navbar .navbar .navbar-nav .nav-item:first-child {
+    margin-right: 0;
+    margin-left: 15px
+}
+
+.main-navbar .navbar .navbar-nav .nav-item:last-child {
+    margin-left: 0;
+    margin-right: 15px
+}
+
+.main-navbar .navbar .navbar-nav .nav-item .dropdown-menu {
+    right: 0;
+    left: auto;
+    text-align: right
+}
+
+.main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a i {
+    left: 15px;
+    right: auto
+}
+
+.main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
+    left: -250px;
+    right: auto
+}
+
+.main-navbar .navbar ul {
+    padding-right: 0
+}
+
+.main-navbar .navbar .others-options {
+    margin-right: 35px;
+    margin-left: 0
+}
+
+.main-navbar .navbar .others-options .option-item {
+    margin-left: 20px;
+    margin-right: 0
+}
+
+.main-navbar .navbar .others-options .option-item:last-child {
+    margin-left: 0
+}
+
+.main-navbar .navbar .others-options .option-item .burger-menu span:nth-child(3) {
+    margin-right: auto;
+    margin-left: 0
+}
+
+.main-navbar .navbar .others-options .option-item .search-box button {
+    left: 0;
+    right: auto
+}
+
+.main-navbar .navbar .others-options .option-item .languages-list .nice-select .list {
+    right: auto;
+    left: 0
+}
+
+.sidebar-modal.active .sidebar-modal-inner {
+    left: 0;
+    right: auto
+}
+
+.sidebar-modal .sidebar-modal-inner {
+    left: -100%;
+    right: auto
+}
+
+.sidebar-modal .sidebar-instagram-feed ul {
+    padding-right: 0
+}
+
+.sidebar-modal .sidebar-contact-area .contact-info .contact-info-content .social {
+    padding-right: 0
+}
+
+.sidebar-modal .sidebar-modal-inner .close-btn {
+    left: 35px;
+    right: auto
+}
+
+.top-products-item .products-image .sale {
+    right: 10px;
+    left: auto
+}
+
+.top-products-item .products-image .products-action {
+    padding-right: 0
+}
+
+.top-products-item .products-content .rating {
+    padding-right: 0
+}
+
+.productsQuickView .modal-content .product-content .product-review .rating {
+    padding-left: 5px;
+    padding-right: 0
+}
+
+.productsQuickView .modal-content .product-content .buy-checkbox-btn .cbx span:last-child {
+    padding-right: 4px;
+    padding-left: 0
+}
+
+.productsQuickView .modal-content .product-content .products-share .social {
+    padding-right: 0
+}
+
+.productsQuickView .modal-content .product-content .product-add-to-cart .input-counter {
+    margin-left: 10px;
+    margin-right: 0
+}
+
+.productsQuickView .modal-content button.close {
+    left: 0;
+    right: auto
+}
+
+.why-choose-item .inner-content {
+    padding-right: 75px;
+    padding-left: 0
+}
+
+.featured-products-item .products-image .new {
+    right: 10px;
+    left: auto
+}
+
+.featured-products-item .products-image .products-action {
+    padding-right: 0
+}
+
+.featured-products-item .products-content .rating {
+    padding-right: 0
+}
+
+.single-blog-item .image .date {
+    right: 0;
+    left: auto
+}
+
+.single-blog-item .image .date span {
+    border-radius: 5px 0 0 0
+}
+
+.newsletter-form button {
+    left: 4px;
+    right: auto
+}
+
+.newsletter-form .input-newsletter {
+    padding-right: 25px;
+    padding-left: 0;
+    text-align: right
+}
+
+.single-footer-widget .social {
+    padding-right: 0
+}
+
+.single-footer-widget .social li {
+    margin-left: 10px;
+    margin-right: 0
+}
+
+.single-footer-widget .social li:last-child {
+    margin-left: 0
+}
+
+.single-footer-widget .instagram-list {
+    padding-right: 0
+}
+
+.single-footer-widget .quick-links {
+    padding-right: 0
+}
+
+.pl-5,
+.px-5 {
+    padding-right: 3rem !important;
+    padding-left: 0 !important
+}
+
+.single-footer-widget .footer-contact-info {
+    padding-right: 0
+}
+
+.single-footer-widget .footer-contact-info li {
+    padding-right: 35px;
+    padding-left: 0
+}
+
+.single-footer-widget .footer-contact-info li i {
+    right: 0;
+    left: auto
+}
+
+.single-footer-widget h3::before {
+    right: 0;
+    left: auto
+}
+
+.copyright-area .copyright-area-content ul {
+    padding-right: 0;
+    text-align: left
+}
+
+.copyright-area .copyright-area-content ul li:first-child {
+    margin-right: 0;
+    margin-left: 10px
+}
+
+.copyright-area .copyright-area-content ul li:last-child {
+    margin-left: 0;
+    margin-right: 10px
+}
+
+.copyright-area .copyright-area-content ul li::before {
+    left: -13px;
+    right: auto
+}
+
+.testimonial-item .icon {
+    left: 18%;
+    right: auto
+}
+
+.go-top {
+    left: 20px;
+    right: auto
+}
+
+.WhatsApp {
+    right: 30px;
+}
+
+.food-item .food-content {
+    right: 0;
+    left: auto
+}
+
+.deal-image .offer {
+    right: 25px;
+    left: auto
+}
+
+.single-gallery-box:hover .gallery-content {
+    right: 10px;
+    left: auto
+}
+
+.single-gallery-box .gallery-content {
+    right: 0;
+    left: auto
+}
+
+.features-area .container-fluid {
+    padding-right: 0;
+    overflow: hidden
+}
+
+.features-item .features-inner-content {
+    padding-right: 65px;
+    padding-left: 0
+}
+
+.single-team-box .image .social {
+    padding-right: 0
+}
+
+.main-slider-item.main-slider-two .main-slider-content {
+    margin-right: auto;
+    margin-left: 0
+}
+
+.main-slider-item.main-slider-two .container-fluid {
+    padding-left: 0
+}
+
+.main-slider-shape .shape-1 {
+    right: 0;
+    left: auto
+}
+
+.home-slides.owl-theme .owl-nav [class*=owl-].owl-next i {
+    right: -2px;
+    left: auto
+}
+
+.client-slider.owl-theme .owl-nav [class*=owl-].owl-next i {
+    right: -2px;
+    left: auto
+}
+
+.page-banner-content ul {
+    padding-right: 0
+}
+
+.page-banner-content ul li {
+    margin-right: 15px;
+    margin-left: 0
+}
+
+.page-banner-content ul li:first-child {
+    margin-right: 0
+}
+
+.page-banner-content ul li::before {
+    right: -10px;
+    left: auto
+}
+
+.about-content .about-list {
+    padding-right: 0
+}
+
+.single-pricing-box .pricing-features {
+    padding-right: 0
+}
+
+.single-pricing-box .price span {
+    margin-right: -5px;
+    margin-left: 0
+}
+
+.gallery-details-information ul {
+    padding-right: 0
+}
+
+.gallery-details-information ul li {
+    padding-right: 35px;
+    padding-left: 0
+}
+
+.gallery-details-information ul li .icon {
+    right: 0;
+    left: auto
+}
+
+.gallery-details-desc .features-text h4 i {
+    margin-left: 4px;
+    margin-right: 0
+}
+
+.faq-accordion .accordion {
+    padding-right: 0
+}
+
+.faq-accordion .accordion .accordion-title {
+    padding: 25px 20px 20px 40px
+}
+
+.faq-accordion .accordion .accordion-title i {
+    left: 20px;
+    right: auto
+}
+
+.faq-contact-form #contactForm .form-group .form-control {
+    padding: 0 15px 0 0;
+    text-align: right
+}
+
+.faq-contact-form #contactForm .form-group textarea.form-control {
+    padding: 15px 15px 0 0;
+    text-align: right
+}
+
+.list-unstyled {
+    padding-right: 0
+}
+
+.login-form form .form-group .form-control {
+    padding: 0 15px 0 0
+}
+
+.login-form form .lost-your-password {
+    text-align: left
+}
+
+.form-check {
+    padding-right: 1.25rem;
+    padding-left: 0
+}
+
+.login-form form .form-check-input {
+    margin-right: -18px;
+    margin-left: 0
+}
+
+.register-form form .form-group .form-control {
+    padding: 0 15px 0 0;
+    text-align: right
+}
+
+.services-details-information .services-list {
+    padding-right: 0
+}
+
+.services-details-information .download-file ul {
+    padding-right: 0
+}
+
+.services-details-information .download-file ul li a i {
+    left: 0;
+    right: auto
+}
+
+.services-details-information .services-contact-info ul {
+    padding-right: 0
+}
+
+.services-details-information .services-contact-info ul li {
+    padding-right: 35px;
+    padding-left: 0
+}
+
+.services-details-information .services-contact-info ul li .icon {
+    right: 0;
+    left: auto
+}
+
+.services-details-desc .services-details-features .features-text h4 i {
+    margin-left: 4px;
+    margin-right: 0
+}
+
+.services-details-desc .services-details-faq .accordion {
+    padding-right: 0
+}
+
+.services-details-desc .services-details-faq .accordion .accordion-title {
+    padding: 25px 20px 20px 40px
+}
+
+.services-details-desc .services-details-faq .accordion .accordion-title i {
+    left: 20px;
+    right: auto
+}
+
+.orgo-grid-sorting .ordering {
+    text-align: left
+}
+
+.orgo-grid-sorting .ordering label {
+    margin-left: 5px;
+    margin-right: 0
+}
+
+.orgo-grid-sorting .ordering .nice-select .list .option {
+    text-align: right
+}
+
+.products-details-tab .tab_content .tabs_item .products-details-tab-content .product-review-form .review-form form .form-group .form-control {
+    text-align: right
+}
+
+.widget-area .widget .widget-title::before {
+    right: 0;
+    left: auto
+}
+
+.widget-area .widget_search form button {
+    left: 5px;
+    right: auto
+}
+
+.widget-area .widget_popular_products .item .thumb {
+    float: right;
+    margin-left: 15px;
+    margin-right: 0
+}
+
+.cart-table table tbody tr td.product-subtotal .remove {
+    float: left
+}
+
+.text-right {
+    text-align: left !important
+}
+
+.cart-totals ul li span {
+    float: left
+}
+
+.cart-totals ul {
+    padding-right: 0
+}
+
+.user-actions i {
+    margin-left: 2px;
+    margin-right: 0
+}
+
+.order-details .title::before {
+    right: 0;
+    left: auto
+}
+
+.billing-details .title::before {
+    right: 0;
+    left: auto
+}
+
+.billing-details .form-group .nice-select .list .option {
+    text-align: right
+}
+
+.order-details .payment-box .payment-method p [type=radio]:checked+label,
+.order-details .payment-box .payment-method p [type=radio]:not(:checked)+label {
+    padding-right: 28px;
+    padding-left: 0
+}
+
+.order-details .payment-box .payment-method p [type=radio]:checked+label::before,
+.order-details .payment-box .payment-method p [type=radio]:not(:checked)+label::before {
+    right: 0;
+    left: auto
+}
+
+.order-details .payment-box .payment-method p [type=radio]:checked+label::after,
+.order-details .payment-box .payment-method p [type=radio]:not(:checked)+label::after {
+    right: 4px;
+    left: auto
+}
+
+.form-check-input {
+    margin-right: -1.25rem;
+    margin-left: 0
+}
+
+.billing-details .form-group .nice-select {
+    text-align: right !important;
+    padding-right: 18px
+}
+
+.billing-details .form-group .nice-select:after {
+    left: 20px;
+    right: auto
+}
+
+.product-details-desc .product-review .rating {
+    padding-left: 5px;
+    padding-right: 0
+}
+
+.product-details-desc .product-add-to-cart .input-counter {
+    margin-left: 10px;
+    margin-right: 0
+}
+
+.product-details-desc .products-share .social {
+    padding-right: 0
+}
+
+.product-details-desc .products-share .social li span {
+    margin-left: 3px;
+    margin-right: 0
+}
+
+.products-details-tab .tabs {
+    padding-right: 0
+}
+
+.products-details-tab .tabs li {
+    margin-left: 5px;
+    margin-right: 0
+}
+
+.products-details-tab .tabs li:last-child {
+    margin-left: 0
+}
+
+.products-details-tab .tab_content .tabs_item .products-details-tab-content .product-review-form .review-title .default-btn {
+    left: 0;
+    right: auto
+}
+
+.widget-area .widget_orgo_posts_thumb .item .thumb {
+    float: right;
+    margin-left: 15px;
+    margin-right: 0
+}
+
+.widget-area .widget_categories ul {
+    padding-right: 0
+}
+
+.widget-area .widget_categories ul li {
+    padding-right: 18px;
+    padding-left: 0
+}
+
+.widget-area .widget_categories ul li::before {
+    right: 0;
+    left: auto
+}
+
+.blog-details-desc .article-footer .article-tags span {
+    margin-left: 5px;
+    margin-right: 0
+}
+
+.blog-details-desc .article-footer .article-share .social {
+    padding-right: 0;
+    text-align: left
+}
+
+.blog-details-desc .article-footer .article-share .social li span {
+    margin-left: 2px;
+    margin-right: 0
+}
+
+.post-navigation .navigation-links .nav-next {
+    text-align: left
+}
+
+.comments-area .comment-body {
+    padding-right: 70px;
+    padding-left: 0
+}
+
+.comments-area .children {
+    margin-right: 20px;
+    margin-left: 0
+}
+
+.comments-area .comment-author .avatar {
+    right: -65px;
+    left: auto
+}
+
+.comments-area .comment-respond input[type=date],
+.comments-area .comment-respond input[type=time],
+.comments-area .comment-respond input[type=datetime-local],
+.comments-area .comment-respond input[type=week],
+.comments-area .comment-respond input[type=month],
+.comments-area .comment-respond input[type=text],
+.comments-area .comment-respond input[type=email],
+.comments-area .comment-respond input[type=url],
+.comments-area .comment-respond input[type=password],
+.comments-area .comment-respond input[type=search],
+.comments-area .comment-respond input[type=tel],
+.comments-area .comment-respond input[type=number],
+.comments-area .comment-respond textarea {
+    padding: 1px 15px 0 0;
+    text-align: right
+}
+
+.comments-area .comment-respond textarea {
+    padding-top: 15px !important
+}
+
+.comments-area .comment-respond .comment-form-cookies-consent {
+    padding-right: 20px;
+    padding-left: 0
+}
+
+.comments-area .comment-respond .comment-form-cookies-consent input {
+    right: 0;
+    left: auto
+}
+
+.contact-form .form-group .form-control {
+    text-align: right
+}
+
+@media only screen and (max-width:767px) {
+    .mean-container a.meanmenu-reveal {
+        left: 0 !important;
+        right: auto !important
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        width: 85%
+    }
+    .others-option-for-responsive .dot-menu {
+        left: 60px;
+        right: auto
+    }
+    .others-option-for-responsive .container .container {
+        left: 10px;
+        right: auto
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        text-align: left;
+        left: 0;
+        right: auto
+    }
+    .mean-container .mean-nav ul li a {
+        text-align: right
+    }
+    .others-option-for-responsive .option-inner .others-options .option-item {
+        margin-left: 20px;
+        margin-right: 0
+    }
+    .others-option-for-responsive .option-inner .others-options .option-item:last-child {
+        margin-left: 0
+    }
+    .others-option-for-responsive .option-inner .others-options .option-item .search-box button {
+        left: 0;
+        right: auto
+    }
+    .preloader .preloader {
+        display: none
+    }
+    .top-header-information {
+        text-align: center
+    }
+    .top-header-social {
+        text-align: center
+    }
+    .pl-5,
+    .px-5 {
+        padding-right: 0 !important
+    }
+    .main-slider-item.main-slider-two .container-fluid {
+        padding-left: 15px
+    }
+    .main-slider-item.main-slider-two .main-slider-content {
+        margin-right: 0
+    }
+    .features-area .container-fluid {
+        padding-right: 15px
+    }
+    .login-form form .lost-your-password {
+        text-align: right
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    .login-form form .lost-your-password {
+        text-align: left
+    }
+}
+
+@media only screen and (max-width:991px) and (min-width:768px) {
+    .mean-container a.meanmenu-reveal {
+        left: 0 !important;
+        right: auto !important
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        width: 85%
+    }
+    .others-option-for-responsive .dot-menu {
+        left: 60px;
+        right: auto
+    }
+    .others-option-for-responsive .container .container {
+        left: 10px;
+        right: auto
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        text-align: left;
+        left: 0;
+        right: auto
+    }
+    .mean-container .mean-nav ul li a {
+        text-align: right
+    }
+    .others-option-for-responsive .option-inner .others-options .option-item {
+        margin-left: 20px;
+        margin-right: 0
+    }
+    .others-option-for-responsive .option-inner .others-options .option-item:last-child {
+        margin-left: 0
+    }
+    .others-option-for-responsive .option-inner .others-options .option-item .search-box button {
+        left: 0;
+        right: auto
+    }
+    .preloader .preloader {
+        display: none
+    }
+    .top-header-information {
+        text-align: center
+    }
+    .top-header-social {
+        text-align: center
+    }
+    .pl-5,
+    .px-5 {
+        padding-right: 0 !important
+    }
+    .main-slider-item.main-slider-two .container-fluid {
+        padding-left: 15px
+    }
+    .main-slider-item.main-slider-two .main-slider-content {
+        margin-right: 0
+    }
+    .features-area .container-fluid {
+        padding-right: 15px
+    }
+}
+
+@media only screen and (max-width:1199px) and (min-width:992px) {
+    .mean-container a.meanmenu-reveal {
+        left: 0 !important;
+        right: auto !important
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        width: 85%
+    }
+    .others-option-for-responsive .dot-menu {
+        left: 60px;
+        right: auto
+    }
+    .others-option-for-responsive .container .container {
+        left: 10px;
+        right: auto
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        text-align: left;
+        left: 0;
+        right: auto
+    }
+    .mean-container .mean-nav ul li a {
+        text-align: right
+    }
+    .others-option-for-responsive .option-inner .others-options .option-item {
+        margin-left: 20px;
+        margin-right: 0
+    }
+    .others-option-for-responsive .option-inner .others-options .option-item:last-child {
+        margin-left: 0
+    }
+    .others-option-for-responsive .option-inner .others-options .option-item .search-box button {
+        left: 0;
+        right: auto
+    }
+    .preloader .preloader {
+        display: none
+    }
+    .main-slider-item.main-slider-two .container-fluid {
+        padding-right: 20px
+    }
+    .features-area .container-fluid {
+        padding-right: 15px
+    }
+}
+
+@media only screen and (max-width:991px) {}

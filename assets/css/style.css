@@ -7260,6 +7260,24 @@ blockquote p,
     border: 1px solid #FFF;
 }
 
+.Instagram {
+    position: fixed;
+    bottom: 158px;
+    left: 24px;
+    z-index: 999;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 50%;
+    background-color: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90);
+    box-shadow: rgb(0 0 0 / 15%) 0px 4px 12px 0px;
+    color: #FFF;
+    font-size: 45px;
+    border: 1px solid #FFF;
+}
+
 .productsQuickView .modal-dialog {
     max-width: 850px;
     margin: 0 auto

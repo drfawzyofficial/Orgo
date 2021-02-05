@@ -7249,7 +7249,7 @@ blockquote p,
     position: fixed;
     bottom: 98px;
     left: 24px;
-    z-index: 998;
+    z-index: 2147483644;
     cursor: pointer;
     width: 60px;
     height: 60px;
@@ -7266,7 +7266,7 @@ blockquote p,
     position: fixed;
     bottom: 166px;
     left: 24px;
-    z-index: 998;
+    z-index: 2147483644;
     cursor: pointer;
     width: 60px;
     height: 60px;

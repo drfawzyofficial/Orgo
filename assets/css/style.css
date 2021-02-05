@@ -835,7 +835,7 @@ h6:last-child {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 500; 
+    z-index: 2147483645; 
     -webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, .09);
     box-shadow: 0 2px 28px 0 rgba(0, 0, 0, .09);
     background-color: #fff !important;
@@ -1145,7 +1145,7 @@ h6:last-child {
         background-color: #fff;
         padding-top: 15px;
         padding-bottom: 15px;
-        z-index: 999999999;
+        z-index: 2147483645;
         position: relative;
     }
     .main-navbar {

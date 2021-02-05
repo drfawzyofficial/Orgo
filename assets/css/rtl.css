@@ -732,7 +732,8 @@
         left: 0;
         right: auto
     }
-    .mean-container .mean-nav ul li a {
+    .mean-container .mean-nav ul li a,
+    .mean-container .mean-nav ul li form button {
         text-align: right
     }
     .others-option-for-responsive .option-inner .others-options .option-item {

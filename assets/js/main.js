@@ -304,7 +304,8 @@ jQuery(function($) {
         makeTimer();
     }, 0);
     jQuery(window).on('load', function() {
-        $('.preloader').fadeOut()
+        $('.preloader').fadeOut();
+        $("body").css("overflow", "auto");
     })
     $(window).on('load', function() {
         if ($(".wow").length) {

@@ -830,12 +830,12 @@ h6:last-child {
     width: 40px
 }
 
-.navbar-area.is-sticky {
+.navbar-area.is-sticky { 
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 500;
+    z-index: 500; 
     -webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, .09);
     box-shadow: 0 2px 28px 0 rgba(0, 0, 0, .09);
     background-color: #fff !important;

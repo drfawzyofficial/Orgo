@@ -392,6 +392,10 @@ h6:last-child {
     padding-bottom: 25px
 }
 
+.main-navbar .navbar .navbar-nav .nav-item form button {
+    background-color: transparent;
+    border: none;
+}
 
 .main-navbar .navbar .navbar-nav .nav-item a i {
     font-size: 18px;

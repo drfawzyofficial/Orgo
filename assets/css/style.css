@@ -1126,10 +1126,13 @@ h6:last-child {
         height: 265px;
         -webkit-box-shadow: 0 7px 13px 0 rgba(0, 0, 0, .1);
         box-shadow: 0 7px 13px 0 rgba(0, 0, 0, .1);
-        background-color: #fff
+        background-color: #fff;
+        top: 75px;
+        position: absolute;
     }
     .main-responsive-nav .mean-container a.meanmenu-reveal {
-        color: #111
+        color: #111;
+        top: 17px;
     }
     .main-responsive-nav .mean-container a.meanmenu-reveal span {
         background: #111;
@@ -1139,7 +1142,9 @@ h6:last-child {
         position: relative
     }
     .main-responsive-nav .logo img {
-        max-width: 100px !important
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
     }
     .navbar-area {
         background-color: #fff;
@@ -1358,13 +1363,28 @@ h6:last-child {
 }
 
 .main-banner-item {
-    background-image: url(/assets/img/main-banner-bg-1.jpg);
+    background-image: url(/assets/img/banner.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 200px;
     padding-bottom: 200px;
-    background-attachment: fixed
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+}
+
+.main-banner-item::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    opacity: .8;
 }
 
 .main-banner-item.banner-item-two {
@@ -3538,6 +3558,24 @@ h6:last-child {
     text-align: center;
     margin-bottom: 30px
 }
+
+.single-special-features .icon i {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    background-color: #f99459;
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    border-radius: 50px;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+.single-special-features .icon i:hover {
+    background-color: #f35320;
+    color: #fff
+}  
 
 .single-special-features .content {
     margin-top: 25px

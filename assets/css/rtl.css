@@ -252,7 +252,13 @@
 
 .copyright-area .copyright-area-content ul {
     padding-right: 0;
-    text-align: center
+    text-align: left
+}
+
+@media only screen and (max-width: 767px) {
+    .copyright-area .copyright-area-content ul {
+        text-align: center
+    }
 }
 
 .copyright-area .copyright-area-content ul li:first-child {

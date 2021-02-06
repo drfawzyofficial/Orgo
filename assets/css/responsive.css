@@ -898,4 +898,7 @@
     #fb-root, .Instagram {
         display: none;
     }
+    .WhatsApp {
+        bottom: 30px;
+    }
 }

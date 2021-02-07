@@ -7694,10 +7694,3 @@ blockquote p,
     color: #c13584;
     background-color: transparent
 }
-
-.fb_dialog.fb_dialog_advanced .fb_dialog_content iframe:first-child,
-.fb_dialog.fb_dialog_advanced .fb_dialog_content iframe:first-child #facebook .plugin svg { 
-    height: 40px !important; 
-    width: 40px !important; 
- } 
-

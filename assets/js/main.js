@@ -306,7 +306,6 @@ jQuery(function($) {
     jQuery(window).on('load', function() {
         $('.preloader').fadeOut();
         $("body").css("overflow", "auto");
-        $("svg").attr("style","width: 40px ;height: 40px")
     })
     $(window).on('load', function() {
         if ($(".wow").length) {

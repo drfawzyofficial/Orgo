@@ -7694,3 +7694,5 @@ blockquote p,
     color: #c13584;
     background-color: transparent
 }
+
+.fb_dialog.fb_dialog_advanced iframe { height: 40px; width: 40px } 

@@ -895,7 +895,10 @@
 }
 
 @media only screen and (max-width:575px) {
-    .Instagram {
+    #fb-root, .Instagram {
         display: none;
+    }
+    .WhatsApp {
+        bottom: 30px;
     }
 }

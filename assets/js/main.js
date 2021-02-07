@@ -306,12 +306,7 @@ jQuery(function($) {
     jQuery(window).on('load', function() {
         $('.preloader').fadeOut();
         $("body").css("overflow", "auto");
-        // $.attr("style","width: 40px ;height: 40px")
-        $(".fb_dialog.fb_dialog_advanced .fb_dialog_content iframe:first-child").load(function() {
-            console.log((".fb_dialog.fb_dialog_advanced .fb_dialog_content iframe:first-child").contents());
-            console.log((".fb_dialog.fb_dialog_advanced .fb_dialog_content iframe:first-child").contents().find("svg"));
-        });
-       
+        $("svg").attr("style","width: 40px ;height: 40px")
     })
     $(window).on('load', function() {
         if ($(".wow").length) {

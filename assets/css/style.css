@@ -7695,8 +7695,7 @@ blockquote p,
     background-color: transparent
 }
 
-.fb_dialog.fb_dialog_advanced .fb_dialog_content iframe:first-child,
-.fb_dialog.fb_dialog_advanced .fb_dialog_content iframe:first-child #facebook body svg { 
+.fb_dialog.fb_dialog_advanced .fb_dialog_content iframe:first-child, body.plugin svg { 
     height: 40px !important; 
     width: 40px !important; 
  } 

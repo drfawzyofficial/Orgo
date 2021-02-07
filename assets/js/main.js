@@ -307,8 +307,11 @@ jQuery(function($) {
         $('.preloader').fadeOut();
         $("body").css("overflow", "auto");
         // $.attr("style","width: 40px ;height: 40px")
-        console.log((".fb_dialog.fb_dialog_advanced .fb_dialog_content iframe:first-child").contents());
-        console.log((".fb_dialog.fb_dialog_advanced .fb_dialog_content iframe:first-child").contents().find("svg"));
+        $(".fb_dialog.fb_dialog_advanced .fb_dialog_content iframe:first-child").load(function() {
+            console.log((".fb_dialog.fb_dialog_advanced .fb_dialog_content iframe:first-child").contents());
+            console.log((".fb_dialog.fb_dialog_advanced .fb_dialog_content iframe:first-child").contents().find("svg"));
+        });
+       
     })
     $(window).on('load', function() {
         if ($(".wow").length) {

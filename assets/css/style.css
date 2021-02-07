@@ -7695,4 +7695,7 @@ blockquote p,
     background-color: transparent
 }
 
-.fb_dialog.fb_dialog_advanced iframe { height: 40px; width: 40px } 
+.fb_dialog.fb_dialog_advanced .fb_dialog_content iframe:first-child { 
+    height: 40px !important; 
+    width: 40px !important; 
+ } 

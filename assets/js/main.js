@@ -306,7 +306,9 @@ jQuery(function($) {
     jQuery(window).on('load', function() {
         $('.preloader').fadeOut();
         $("body").css("overflow", "auto");
-        $(".fb_dialog.fb_dialog_advanced .fb_dialog_content iframe:first-child").contents().find("svg").attr("style","width: 40px ;height: 40px")
+        // $.attr("style","width: 40px ;height: 40px")
+        console.log((".fb_dialog.fb_dialog_advanced .fb_dialog_content iframe:first-child").contents());
+        console.log((".fb_dialog.fb_dialog_advanced .fb_dialog_content iframe:first-child").contents().find("svg"));
     })
     $(window).on('load', function() {
         if ($(".wow").length) {

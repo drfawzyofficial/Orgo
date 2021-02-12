@@ -1,9 +1,8 @@
-@import "https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap";
-@import "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 body {
     padding: 0;
     margin: 0;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     overflow: hidden;
 }
@@ -30,8 +29,8 @@ p {
     line-height: 1.8;
     color: #6b6b84;
     font-weight: 500;
-    font-family: open sans, sans-serif;
-    font-size: 16px
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
 }
 
 p:last-child {
@@ -91,7 +90,7 @@ h4,
 h5,
 h6 {
     color: #111;
-    font-family: rubik, sans-serif;
+    font-family: 'Open-Sans', sans-serif;
     font-weight: 700;
     text-transform: capitalize
 }
@@ -1112,9 +1111,6 @@ h6:last-child {
     .main-responsive-nav .main-responsive-menu.mean-container .mean-nav ul li a.active {
         color: #f99459
     }
-    .main-responsive-nav .main-responsive-menu.mean-container .mean-nav ul li a i {
-        display: none
-    }
     .main-responsive-nav .main-responsive-menu.mean-container .mean-nav ul li li a {
         font-size: 14px
     }
@@ -1143,8 +1139,6 @@ h6:last-child {
     }
     .main-responsive-nav .logo img {
         height: 60px;
-        width: 60px;
-        border-radius: 50%;
     }
     .navbar-area {
         background-color: #fff;
@@ -1406,17 +1400,18 @@ h6:last-child {
 }
 
 .main-banner-content {
-    max-width: 680px
+    width: 100%;
+    text-align: center;
 }
 
-.main-banner-content span {
-    font-size: 18px;
+.main-banner-content h1 {
+    font-size: 60px;
     color: #f35320;
     font-weight: 500
 }
 
-.main-banner-content h1 {
-    font-size: 70px;
+.main-banner-content h3 {
+    font-size: 40px;
     color: #fff;
     margin-top: 15px;
     margin-bottom: 20px
@@ -6944,7 +6939,6 @@ blockquote p,
     position: relative;
     padding-bottom: 15px;
     margin-bottom: 25px;
-    font-family: open sans, sans-serif
 }
 
 .single-footer-widget h3::before {

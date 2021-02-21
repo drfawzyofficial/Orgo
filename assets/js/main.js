@@ -256,7 +256,7 @@ jQuery(function($) {
             }, 500);
         });
         $('.WhatsApp').on('click', function() {
-            window.open("https://api.whatsapp.com/send?phone=201010506014", "_target");
+            window.open("https://api.whatsapp.com/send?phone=201004575215", "_target");
         });
         $('.Instagram').on('click', function() {
             window.open("https://www.instagram.com/elhodacorporation", "_target");
